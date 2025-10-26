@@ -1,0 +1,317 @@
+
+
+body{
+    background-color: rgba(10, 19, 19, 0.927) ;
+    color: white ;
+
+} 
+
+*{
+    display: block ; 
+    margin-left: 20px; 
+    font-family: sans-serif ;
+}
+
+
+h1{
+   position: relative ;
+   bottom:   23px ;
+   font-weight: 500 ; 
+   letter-spacing: 1px ;
+   margin-bottom: 2px ; 
+   font-size: 40px;
+} 
+
+form label{ 
+    margin-left: 1px;
+    font-size:small ; 
+    margin-top: 3px;
+    font-weight: 600 ;
+    margin-bottom: 5px;
+}
+
+form input{  
+    margin-left: 1px;
+    background-color: inherit ;
+    border: 1px solid #fff ;
+    border-radius: 3px ;
+    margin-top: 5px ;
+    margin-bottom: 12px ;
+    padding: 5px ;
+    width: 90% ; 
+    outline: none ;
+    color: #fff ;
+    padding-left: 10px;
+} 
+
+
+form #lab3{
+    text-transform: uppercase;
+} 
+
+
+/* dark mood  ---------------------------------*/  
+
+#Moodtogle{ 
+   display: none ;
+}
+
+.switch{
+    margin-left: 10px;
+    border: 1px solid #fff ;
+    background-color: #fff ; 
+    border-radius: 15px;
+    width: 40px ;   
+    margin-top: 5px;
+    position:  absolute ;
+    right: 45px ;   
+    top: 60px ;
+    padding-bottom: 2px;  
+    padding: 5px;
+    padding-top: 2px; 
+    height: 18px;
+
+}
+
+.switch span{
+    border-radius: 50% ;
+    background-color: black ;
+    width: 8px ;
+    height: 8px ; 
+    padding: 7px; 
+    cursor: pointer;
+} 
+
+#Moodtogle:checked + .silder{
+      background-color: #fff ;  
+      position: relative; 
+      right: 20px ;
+} 
+
+
+/* ---------------------------------- */
+
+
+
+
+#subm{
+    width: 90% ;
+    background-color:  rgba(21, 30, 30, 0.927);
+    color: #fff ;
+    padding-top: 7px; 
+    padding-bottom: 6px ;
+    border:1px solid #fff ; 
+    border-radius: 3px;
+    font-size: xx-small ;
+    text-transform: uppercase; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    cursor: pointer;
+} 
+
+input:focus{
+    border:1.5px solid rgb(82, 203, 203) ;
+    outline-color: rgb(89, 189, 189);
+} 
+
+ul{ 
+    margin-top: 50px;
+    list-style: none;  
+    margin-bottom: 2px;
+    display: flex ;  
+    justify-content: space-between ;
+    position: relative ;
+    right: 60px ;
+    
+}   
+
+#p1{
+    border: 1px solid #ffffff7e ;
+    width: 24%;   
+    margin-top: 7px;  
+    margin-bottom: 0;
+} 
+
+#p2{
+    border: 1px solid #ffffff7e ;
+    width: 31% ; 
+    position: relative ;
+    left: 145px ;
+    bottom: 17.5px ; 
+    margin-bottom: 0;
+}
+
+#p3{
+    border: 1px solid #ffffff7e ;
+    width: 23.5% ; 
+    position: relative ; 
+    margin-left: 3px;
+    left: 347px ;
+    bottom: 35px;
+    margin-bottom: 0;
+}
+
+#p4{
+    border: 1px solid #ffffff7e ;
+    width: 8%; 
+    position: relative ; 
+    margin-left: 3px;
+    left: 490px ;
+    bottom: 52px;
+    margin-bottom: 0;
+}
+
+
+#clear{
+    display: flex ;
+    justify-self: end ;
+    font-size: xx-small ; 
+    position: relative ;
+    bottom: 30px ;
+    right: 40px ; 
+    padding: 10px ; 
+    padding-bottom: 7px; 
+    padding-top: 8px;  
+    padding-left: 15px;
+    padding-right: 20px;
+    color: #fff ;
+    background-color: rgba(21, 30, 30, 0.927); 
+    outline: none ;   
+    border: 1.5px solid #ffffff7e;
+    border-radius: 3px ;  
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    cursor: pointer;
+    
+}
+
+
+#Pmess{
+    display: none ;  
+    margin-top: 3px;
+    background-color: green ;
+    border: 1px solid  green ;  
+    position:  absolute ;
+    top: 42px;
+    padding: 5px ;  
+    width: 87vh ; 
+    margin-top: 3px ;   
+    margin-bottom: 3px;
+    font-size: small ;
+    
+
+} 
+
+
+.dark{
+    background-color: #fff ;
+    color: #000 ;
+}
+
+
+
+
+@media (min-width:1200px){
+     
+#p1{
+    border: 1px solid #ffffff7e ;
+    width: 345px ;   
+    margin-top: 7px;  
+    position:  relative ;
+    top: 0.5px;
+} 
+#p2{
+    border: 1px solid #ffffff7e ;
+    width: 377px ; 
+    position: relative ;
+    left: 350px ;
+    bottom: 17px ; 
+
+}
+
+#p3{
+    border: 1px solid #ffffff7e ;
+    width: 285px ; 
+    position: relative ; 
+    margin-left: 3px;
+    left: 750px ;
+    bottom: 34.5px;
+}
+
+#p4{
+    border: 1px solid #ffffff7e ;
+    width: 75px ; 
+    position: relative ; 
+    margin-left: 3px;
+    left: 1040px ;
+    bottom: 52px;
+} 
+
+  #clear{
+    display: flex ;
+    justify-self: end ;
+    font-size: xx-small ; 
+    position: relative ;
+    bottom: 30px ;
+    right: 103px ; 
+    padding: 10px ; 
+    padding-bottom: 7px; 
+    padding-top: 10px;  
+    padding-left: 15px;
+    padding-right: 20px;
+    color: #fff ;
+    background-color: rgba(21, 30, 30, 0.927); 
+    outline: none ;   
+    border: 1.5px solid #ffffff7e;
+    border-radius: 3px ;  
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    cursor: pointer;
+    
+} 
+    
+   
+.switch{
+    margin-left: 10px;
+    border: 1px solid #fff ;
+    background-color: #fff ; 
+    border-radius: 15px;
+    width: 40px ;   
+    margin-top: 5px;
+    position:  absolute ;
+    right: 110px ;   
+    top: 60px ;
+    padding-bottom: 2px;  
+    padding: 5px;
+    padding-top: 2px; 
+    height: 18px;
+
+}  
+
+#Pmess{
+    display: none ;  
+    margin-top: 3px;
+    background-color: green ;
+    border: 1px solid  green ;  
+    position:  absolute ;
+    top: 41px;
+    padding: 5px ;  
+    width: 183vh ; 
+    margin-top: 3px ;   
+    margin-bottom: 3px;
+    font-size: small ;
+    
+
+}   
+   .uls{
+      position: relative; 
+      bottom: 50px;
+   }
+ 
+  #li4{
+     position: relative ; 
+     right: 70px ;
+  }
+}
